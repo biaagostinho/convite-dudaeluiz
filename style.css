@@ -84,7 +84,7 @@ a { color: inherit; }
 .hero h1 { margin:18px 0 10px; font:400 clamp(3.6rem,12vw,7rem)/.83 "Italianno",cursive; color:#fff9e7; text-shadow:0 3px 22px rgba(45,32,12,.55); }
 .hero h1 span { display:block; margin:10px 0; font:italic 1.45rem "Cormorant Garamond",serif; color:#f8df9b; }
 .ornament { display:flex; align-items:center; justify-content:center; gap:13px; margin:25px auto; color:var(--gold); }
-.ornament span { width:52px; height:1px; background:var(--line); }
+.ornament span { width:50px; height:1px; background:var(--line); }
 .ornament b { font-size:1rem; font-weight:400; }
 .hero-date { margin:0; font:500 1.55rem "Cormorant Garamond",serif; letter-spacing:.04em; color:#fff9e9; text-shadow:0 2px 12px rgba(45,32,12,.7); }
 .hero-time { margin:5px 0 28px; color:#fff0c7; font-size:.78rem; letter-spacing:.12em; text-shadow:0 2px 12px rgba(45,32,12,.7); }
