@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7edcf">
+  <meta name="description" content="Convite de casamento de Maria Eduarda e Luiz — 27 de fevereiro de 2027.">
+  <title>Convite de Casamento</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Italianno&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="sparklesCanvas" aria-hidden="true"></canvas>
+
+  <!-- Abertura -->
+  <section class="opening-screen" id="openingScreen" aria-label="Abertura do convite">
+    <div class="opening-grain"></div>
+    <p class="opening-kicker">UM CONVITE FEITO COM AMOR</p>
+
+    <div class="envelope-stage">
+      <div class="envelope" id="envelope">
+        <div class="envelope-back"></div>
+        <div class="letter" id="invitationLetter">
+          <span class="letter-kicker">COM CARINHO,</span>
+          <span class="letter-names">Maria Eduarda</span>
+          <span class="letter-amp">&</span>
+          <span class="letter-names">Luiz</span>
+          <span class="letter-rule"></span>
+          <span class="letter-date">27 . 02 . 2027</span>
+        </div>
+        <div class="flap flap-left"></div>
+        <div class="flap flap-right"></div>
+        <div class="flap flap-bottom"></div>
+        <div class="flap flap-top" id="envelopeTop"></div>
+        <button class="wax-seal" id="openInvitation" type="button" aria-label="Abrir convite">
+          <span>M <i>&</i> L</span>
+        </button>
+      </div>
+    </div>
+
+    <p class="opening-instruction" id="openHint">Toque no lacre para abrir</p>
+    <span class="opening-date">27 DE FEVEREIRO DE 2027 · 16H</span>
+  </section>
+
+  <main id="mainContent" inert>
+    <section class="hero" id="inicio">
+      <div class="hero-photo"></div>
+      <div class="hero-wash"></div>
+
+<div class="hero-content reveal">
+        <span class="eyebrow">O COMEÇO DE PARA SEMPRE</span>
+        <h1>Maria Eduarda <span>&</span> Luiz</h1>
+        <div class="ornament" aria-hidden="true"><span></span><b>✳</b><span></span></div>
+        <p class="hero-date">27 de fevereiro de 2027</p>
+        <p class="hero-time">Sábado · às 16 horas</p>
+        <a class="text-link" href="#mensagem">Conheça nosso convite <span>↓</span></a>
+      </div>
+      <span class="hero-note">COM AMOR, MARIA EDUARDA & LUIZ</span>
+    </section>
+
+    <section class="section message-section" id="mensagem">
+<div class="section-inner paper-card reveal">
+        <span class="eyebrow">UM DIA PARA GUARDAR NO CORAÇÃO</span>
+        <h2>Nossa felicidade será ainda maior <em>com você ao nosso lado.</em></h2>
+        <div class="small-ornament" aria-hidden="true">✳</div>
+        <div class="message-copy">
+          <p>Nosso coração não cabe de tanta felicidade! E nada seria igual sem vocês conosco nesse dia que tanto sonhamos.</p>
+          <p>Esse é o primeiro passo da nossa nova história, que só fica completa com quem amamos e esteve presente na nossa caminhada até hoje. Queremos celebrar cada segundo, cada lágrima de felicidade e cada abraço bem apertado.</p>
+        </div>
+        <p class="signature">Com carinho,<strong>Maria Eduarda & Luiz</strong></p>
+      </div>
+    </section>
+
+    <section class="photo-section">
+      <figure class="photo-card reveal">
+        <img src="foto2.png" alt="Maria Eduarda e Luiz juntos em uma celebração especial">
+        <figcaption>Dois corações, uma só história.</figcaption>
+      </figure>
+    </section>
+
+    <section class="section date-section" id="data">
+<div class="section-inner reveal">
+        <span class="eyebrow">ESTÁ CHEGANDO O GRANDE DIA</span>
+        <h2>Vamos celebrar o amor</h2>
+        <div class="date-panel">
+          <span class="date-number">27</span>
+          <span class="date-month">FEVEREIRO<strong>2027</strong></span>
+        </div>
+        <p class="date-subtitle">Sábado, às 16 horas</p>
+        <div class="countdown" id="countdown" aria-label="Contagem regressiva">
+          <div><strong id="days">00</strong><span>DIAS</span></div>
+          <div><strong id="hours">00</strong><span>HORAS</span></div>
+          <div><strong id="minutes">00</strong><span>MIN</span></div>
+          <div><strong id="seconds">00</strong><span>SEG</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section location-section" id="localizacao">
+      <div class="section-inner reveal">
+        <span class="eyebrow">ESPERAMOS POR VOCÊ</span>
+        <h2>Onde será nossa celebração?</h2>
+        <p class="section-intro">Preparamos tudo com muito carinho para receber você nesse dia tão especial.</p>
+        <div class="detail-card">
+          <span class="detail-icon" aria-hidden="true">⌖</span>
+          <h3>Local da cerimônia</h3>
+          <p>27 de fevereiro de 2027</p>
+          <p>Às 16 horas</p>
+          <a class="button-link" href="https://www.google.com/maps/place/22%C2%B052'43.7%22S+45%C2%B031'58.3%22W/@-22.8787937,-45.5354385,724m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d-22.8787937!4d-45.5328636?hl=pt-BR&entry=ttu" target="_blank" rel="noopener noreferrer">Abrir localização no mapa <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gifts-section" id="presentes">
+<div class="section-inner paper-card reveal">
+        <span class="eyebrow">UM CARINHO PARA NOSSA NOVA HISTÓRIA</span>
+        <h2>Lista de presentes</h2>
+        <p class="section-intro">Sua presença já é o nosso maior presente! Mas, se desejar nos presentear, preparamos uma lista com muito carinho.</p>
+        <a class="button-link" href="https://app.mywishlist.co/mariaeduarda-bfux/lista-de-presentes-duda-luiz" target="_blank" rel="noopener noreferrer">Acessar lista de presentes <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="section rsvp-section" id="confirmacao">
+      <div class="section-inner reveal">
+        <span class="eyebrow">SUA PRESENÇA É MUITO IMPORTANTE</span>
+        <h2>Você vem celebrar com a gente?</h2>
+        <p class="section-intro">Para organizarmos tudo com carinho, confirme sua presença pelo formulário abaixo.</p>
+        <form id="rsvpForm" class="rsvp-form">
+          <label for="guestName">Seu nome completo</label>
+          <input type="text" id="guestName" name="guestName" placeholder="Digite seu nome" autocomplete="name" required>
+          <label for="guestAttendance">Você poderá comparecer?</label>
+          <select id="guestAttendance" name="guestAttendance" required>
+            <option value="">Selecione uma opção</option>
+            <option value="Sim, estarei presente!">Sim, estarei presente!</option>
+            <option value="Infelizmente não poderei comparecer.">Infelizmente não poderei comparecer.</option>
+          </select>
+          <label for="guestMessage">Mensagem para os noivos <span>(opcional)</span></label>
+          <textarea id="guestMessage" name="guestMessage" rows="3" placeholder="Deixe uma mensagem especial..."></textarea>
+          <button class="button-link submit-button" type="submit">Preparar confirmação <span>↗</span></button>
+          <p class="form-note" id="formNote" role="status">Ao enviar, sua mensagem será preparada para você compartilhar pelo WhatsApp.</p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      
+      <p>O amor nos trouxe até aqui.</p>
+      <h2>Maria Eduarda <i>&</i> Luiz</h2>
+      <span class="footer-date">27 . 02 . 2027</span>
+      <span class="footer-line"></span>
+      <small>UM DIA INESQUECÍVEL, FEITO DE AMOR</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
