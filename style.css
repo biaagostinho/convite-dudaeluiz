@@ -451,3 +451,20 @@ h2 em,
     line-height: 1.9;
     text-shadow: none;
 }
+
+/* Lacre com monograma sempre em uma linha */
+.wax-seal span {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+@media (max-width: 560px) {
+  .wax-seal {
+    width: 82px;
+    min-width: 82px;
+    height: 82px;
+    font-size: 1.45rem;
+  }
+}
